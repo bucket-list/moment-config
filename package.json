@@ -17,7 +17,7 @@
     "url": "https://github.com/TrejGun/moment-config-trejgun/issues"
   },
   "files": [
-    "index"
+    "index.js"
   ],
   "dependencies": {
     "moment": "2.11.2",
