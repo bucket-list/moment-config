@@ -13,4 +13,4 @@ range.prototype.contains = function contains(other, exclusive) {
 	}
 };
 
-exports.default = moment;
+module.exports = moment;
