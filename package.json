@@ -1,0 +1,36 @@
+{
+  "name": "moment-config-trejgun",
+  "version": "0.0.0",
+  "license": "MIT",
+  "description": "Shared moment.js config",
+  "keywords": [],
+  "author": {
+    "name": "Trej Gun",
+    "email": "trejgun@gmail.com",
+    "url": "https://github.com/TrejGun"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/TrejGun/moment-config-trejgun.git"
+  },
+  "bugs": {
+    "url": "https://github.com/TrejGun/moment-config-trejgun/issues"
+  },
+  "files": [
+    "index"
+  ],
+  "dependencies": {
+    "moment": "2.11.2",
+    "moment-range": "2.1.0",
+    "moment-timezone": "0.5.0"
+  },
+  "engines": {
+    "node": ">=5.0.0"
+  },
+  "scripts": {
+    "pull": "git checkout master && git pull origin master",
+    "push": "git push origin master --tags && npm publish",
+    "commit": "git commit -a -m ${1}",
+    "release": "release () { npm run pull && if [ -z $1 ]; then npm version patch; else npm version $1; fi && npm run push; }; release"
+  }
+}
