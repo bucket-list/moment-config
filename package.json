@@ -21,6 +21,7 @@
   ],
   "dependencies": {
     "moment": "^2.12.0",
+    "moment-precise-range": "0.1.1",
     "moment-range": "^2.2.0",
     "moment-timezone": "^0.5.1"
   },

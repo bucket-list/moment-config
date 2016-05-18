@@ -1,6 +1,7 @@
 var moment = require("moment");
 var range = require("moment-range");
 var timezone = require("moment-timezone");
+var precise = require("moment-precise-range")(moment);
 
 range.prototype.contains = function contains(other, exclusive) {
 	const start = this.start;
