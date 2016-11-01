@@ -1,20 +1,19 @@
 {
-  "name": "moment-config-trejgun",
+  "name": "moment-config",
   "version": "0.0.6",
   "license": "MIT",
   "description": "Shared moment.js config",
   "keywords": [],
   "author": {
-    "name": "Trej Gun",
-    "email": "trejgun@gmail.com",
-    "url": "https://github.com/TrejGun"
+    "name": "ABL",
+    "url": "https://github.com/bucket-list"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/TrejGun/moment-config-trejgun.git"
+    "url": "https://github.com/TrejGun/moment-config.git"
   },
   "bugs": {
-    "url": "https://github.com/TrejGun/moment-config-trejgun/issues"
+    "url": "https://github.com/TrejGun/moment-config/issues"
   },
   "files": [
     "index.js"

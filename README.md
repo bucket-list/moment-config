@@ -1,1 +1,1 @@
-# moment-config-trejgun
+# moment-config
