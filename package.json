@@ -1,5 +1,5 @@
 {
-  "name": "moment-config",
+  "name": "moment-config-abl",
   "version": "0.0.8",
   "license": "MIT",
   "description": "Shared moment.js config",
@@ -10,10 +10,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/bucket-list/moment-config.git"
+    "url": "https://github.com/bucket-list/moment-config-abl.git"
   },
   "bugs": {
-    "url": "https://github.com/bucket-list/moment-config/issues"
+    "url": "https://github.com/bucket-list/moment-config-abl/issues"
   },
   "files": [
     "index.js"
